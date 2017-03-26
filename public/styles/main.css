@@ -1,0 +1,40 @@
+/* CURRENTLY IN: styles/main.css */
+html {
+	font-size: 12px;
+}
+
+#blogapp .blog-col {
+	/*border: 1px solid black;*/
+	text-align: center;
+}
+
+#blogapp .blog-spinner {
+	animation: spinner 2.0s linear infinite;
+}
+
+#blogapp .bloglist-item {
+	font-weight: bold;
+	text-align: left;
+}
+
+#blogapp .bloglist-icon {
+	float: right;
+	margin: 0 0.25rem;
+}
+
+#blogapp .blog-addbtn {
+	cursor: pointer;
+}
+
+/*.glyphicon-remove {
+	float: right;
+}*/
+
+@keyframes spinner {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
